@@ -15,12 +15,12 @@ namespace Àpi.Controllers.Àpi
         private readonly IConfiguration _configuration;
         private readonly DataContext _dataContext;
 
-
         public EmpresaController(DataContext dataContext)
         {
             _dataContext = dataContext;
         }
 
+        //--
         //-----------------------------------------------------------------------------------
 
         [HttpGet]
