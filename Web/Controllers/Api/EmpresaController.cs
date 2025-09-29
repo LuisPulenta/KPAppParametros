@@ -20,9 +20,7 @@ namespace Àpi.Controllers.Àpi
             _dataContext = dataContext;
         }
 
-        //--
         //-----------------------------------------------------------------------------------
-
         [HttpGet]
         public async Task<IActionResult> Get()
         {
